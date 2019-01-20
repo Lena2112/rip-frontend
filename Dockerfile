@@ -1,8 +1,12 @@
-FROM node:10.4.1
+FROM node:8-alpine
 
-COPY ./ /src/
-WORKDIR /src/
-COPY package.json ./package.json
+RUN mkdir image
+COPY / /image
+WORKDIR /image
+
+ENV PATH /image/node_modules/.bin:$PATH
+
+COPY package.json /image/package.json
 
 RUN npm i
 
