@@ -1,0 +1,13 @@
+.diary-preview-small {
+    display: flex;
+    &_item {
+        width: 20%;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &_button {
+        width: 100%
+    }
+}

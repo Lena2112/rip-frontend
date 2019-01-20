@@ -1,0 +1,21 @@
+.record-short-data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    &_link {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.record-comments {
+    margin-top: 20px;
+    border-top: 2px solid #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    padding: 10px 20px;
+}
+
+.record-block {
+    border: 2px solid #000;
+}

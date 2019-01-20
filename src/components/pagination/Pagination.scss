@@ -1,0 +1,34 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  &__item {
+    margin-right: 15px;
+    font-size: 20px;
+    padding: 15px 20px;
+    color: #b2b2b2;
+    background: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      background: #e7e7e7;
+      transition: background 0.3s ease;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &--active {
+      color: #fff;
+      background: #29c5e6;
+      border: none;
+      &:hover {
+        background: #29c5e6;
+        transition: background 0.3s ease;
+      }
+    }
+  }
+
+}

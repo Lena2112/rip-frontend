@@ -1,0 +1,23 @@
+.logo {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+  text-decoration: none;
+  &__text {
+    font-size: 25px;
+    font-family: 'Calligraffitti', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    align-self: center;
+    text-decoration: none;
+    &:focus {
+      text-decoration: none;
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+}

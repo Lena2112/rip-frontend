@@ -1,0 +1,25 @@
+.record-item {
+    margin-bottom: 30px;
+    border: 2px solid #000;
+    &_content {
+        padding: 10px 20px;
+        border-bottom: 2px solid #000;
+    }
+    &_text-line {
+        margin-bottom: 10px;
+    }
+    &_block {
+        border-top: 2px solid #000;
+    }
+    &_comment-header {
+        padding: 10px 20px;
+    }
+    &_comments {
+        padding: 10px 20px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}

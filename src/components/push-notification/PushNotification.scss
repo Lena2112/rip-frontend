@@ -1,0 +1,37 @@
+.push-notification {
+    position: fixed;
+    bottom: -60px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px 20px;
+    background: #29c5e6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_title {
+        font-size: 20px;
+        color: #fff;
+        width: 400px;
+    }
+
+    &_closeIcon {
+        width: 18px;
+        height: 18px;
+        background: url("./close.svg");
+        background-size: contain;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    &[data-hidden="false"] {
+        transform: translate(-50%, -90px);
+        transition: transform 0.3s ease-in-out;
+    }
+
+}

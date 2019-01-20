@@ -1,0 +1,33 @@
+.preloader-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.preloader-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: #fff;
+}
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_icon {
+        width: 50px;
+        height: 50px;
+        background: url("./img/preloader.png") no-repeat;
+        background-size: contain;
+    }
+    &_title {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+}

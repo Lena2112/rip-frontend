@@ -1,0 +1,16 @@
+.user-list {
+    height: 450px;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    background: #e6e5e5;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+    &_item {
+        width: 25%;
+    }
+}

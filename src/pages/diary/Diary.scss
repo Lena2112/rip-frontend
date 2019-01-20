@@ -1,0 +1,26 @@
+.diary-block {
+    width: 100%;
+    border: 2px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+    &_link {
+        display: flex;
+        margin-top: 10px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &_name {
+        display: inline-block;
+        margin-left: 10px;
+        color: #000;
+    }
+    &_text-line {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+}

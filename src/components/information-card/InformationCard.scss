@@ -1,0 +1,32 @@
+.information-card {
+    border-bottom: 1px solid #e7e7e7;
+    background: #fff;
+    margin-bottom: 30px;
+
+    &_header {
+        font-weight: 400;
+        font-size: 30px;
+        color: #000;
+        background: #fff;
+        border: 2px solid #000;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &_content {
+
+        &__line {
+            margin-bottom: 10px;
+            padding: 10px 15px;
+            display: flex;
+            border-bottom: 2px solid #000;
+            background: #fff;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__half {
+            width: 50%;
+        }
+    }
+}

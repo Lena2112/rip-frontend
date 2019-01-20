@@ -1,0 +1,39 @@
+.input {
+    display: inline-block;
+    position: relative;
+    background: none;
+    &__field {
+        padding: 10px 25px;
+        height: 60px;
+        box-sizing: border-box;
+        font-size: 20px;
+        border-bottom: 1px solid #ff4e00;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+        color: #000;
+        background: none;
+        width: 100%;
+        text-align: center;
+        &::placeholder {
+            font-size: 20px;
+            color: #000;
+        }
+        &:focus {
+            outline: none;
+            color: #000;
+            border-bottom: 1px solid #ff4e00;
+        }
+        &--error {
+            border-bottom: 1px solid #000;
+        }
+        &:hover {
+            border-bottom: 1px solid #ff4e00;
+        }
+    }
+    .error {
+        color: #dc3545;
+        font-size: 12px;
+    }
+}

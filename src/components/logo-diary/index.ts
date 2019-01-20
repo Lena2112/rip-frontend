@@ -1,0 +1,1 @@
+export { LogoDiary } from "./LogoDiary";

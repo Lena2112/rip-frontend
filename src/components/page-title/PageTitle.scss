@@ -1,0 +1,14 @@
+.page-title {
+    display: flex;
+    margin-bottom: 30px;
+    border: 4px solid #ff4e00;
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+    &_text {
+        color: #000;
+        font-size: 40px;
+        line-height: 35px;
+        text-transform: uppercase;
+    }
+}

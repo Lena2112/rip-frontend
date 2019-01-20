@@ -1,0 +1,22 @@
+.auth-container {
+    width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: #f3f3f3;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    position: relative;
+    &__header {
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-size: 30px;
+        color: #fff;
+        background: #29c5e6;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__content {
+        padding: 0 30px 30px 30px;
+    }
+}

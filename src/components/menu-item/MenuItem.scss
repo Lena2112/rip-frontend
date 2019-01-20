@@ -1,0 +1,27 @@
+.menu-item {
+    flex-grow: 1;
+    background: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #fff;
+    &:first-child {
+        padding-left: 0;
+    }
+    &:last-child {
+        padding-right: 0;
+    }
+    &:hover {
+        border-bottom: 2px solid #ff4e00;
+    }
+    &__link {
+        color: #000;
+        display: inline-block;
+        font-size: 13px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    &--active {
+        border-bottom: 2px solid #ff4e00;
+    }
+}

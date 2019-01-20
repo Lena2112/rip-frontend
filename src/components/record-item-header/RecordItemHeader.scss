@@ -1,0 +1,31 @@
+.record-item-header-wrapper {
+    border-bottom: 2px solid #000;
+}
+
+.record-item-header {
+    display: flex;
+    padding: 10px 20px;
+    &_content {
+        margin-left: 10px;
+    }
+    &_line {
+        margin-bottom: 5px;
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 12px;
+    }
+    &_name {
+        font-size: 16px;
+        color: #000;
+    }
+    &_link {
+        color: #000;
+        font-size: 16px;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+        &:focus {
+            color: #000;
+        }
+    }
+}

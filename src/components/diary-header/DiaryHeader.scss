@@ -1,0 +1,17 @@
+.diary-header {
+    display: flex;
+    align-items: center;
+    &_item {
+        padding-right: 20px;
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 14px;
+    }
+    &_link {
+        color: rgba(0, 0, 0, 0.4);
+        text-decoration: none;
+        font-size: 20px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

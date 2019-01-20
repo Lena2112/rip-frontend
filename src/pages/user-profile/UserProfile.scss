@@ -1,0 +1,18 @@
+.user-profile {
+  display: flex;
+
+  &__avatar {
+    width: 300px;
+    height: 300px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: black;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

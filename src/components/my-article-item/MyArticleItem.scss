@@ -1,0 +1,25 @@
+.my-article-item {
+    display: flex;
+}
+
+.my-article_cell {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.delete-article {
+    background: #F63B3F;
+    border: 1px solid #F63B3F;
+    outline: none;
+    border-radius: 3px;
+    width: 100%;
+    &:hover {
+        background: #F62438;
+        border: 1px solid #F62438;
+    }
+}

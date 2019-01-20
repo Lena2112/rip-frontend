@@ -1,0 +1,46 @@
+.header {
+    margin: 0 auto;
+    position: relative;
+    padding: 20px 40px;
+    &__content {
+        display: flex;
+    }
+    &__controls {
+        display: flex;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+    &__dropdown {
+        padding: 15px 30px !important;
+        min-width: 100px;
+        color: #000;
+        text-align: right !important;
+        align-items: flex-end !important;
+        &__content{
+            top: 54px !important;
+            left: -1px !important;
+
+        }
+        &:hover {
+            background: #fff;
+            transition: background 0.3s ease;
+        }
+        span {
+            color: #000;
+            text-transform: uppercase;
+        }
+        &_icon {
+            width: 17px;
+            height: 17px;
+            margin-left: 10px;
+            background: url("../dropdown/arrow.svg");
+            background-size: contain;
+            transform: rotate(90deg);
+            transition: transform 0.3s ease;
+        }
+        &--opened {
+            transform: rotate(270deg);
+            transition: transform 0.3s ease;
+        }
+    }
+}

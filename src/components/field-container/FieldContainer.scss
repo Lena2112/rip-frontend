@@ -1,0 +1,21 @@
+.field-container {
+    width: 100%;
+    margin-bottom: 30px;
+
+    &_header {
+        background: #fff;
+        color: #000;
+        font-size: 30px;
+        text-transform: uppercase;
+        border: 2px solid #ff4e00;
+        text-align: center;
+    }
+
+    &_content {
+        background: #fff;
+        padding: 20px 15px;
+        border-left: 2px solid #ff4e00;
+        border-right: 2px solid #ff4e00;
+        border-bottom: 2px solid #ff4e00;
+    }
+}

@@ -1,0 +1,1 @@
+export { ShortLogo } from "./ShortLogo";

@@ -1,0 +1,39 @@
+.registration-wrapper {
+    width: 100%;
+    height: 100%;
+    background: url("/img/registration-bg.png") no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.registration-panel {
+    &_field {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    &_button {
+        background: #ffe8c7;
+        color: #000;
+        border: none;
+        outline: none;
+        margin-bottom: 30px;
+        &:hover {
+            background: #fff;
+        }
+    }
+    &_link {
+        color: #000;
+        padding-bottom: 5px;
+        margin-left: 10px;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &_success {
+        margin-top: 30px;
+        color: #28a745;
+    }
+}

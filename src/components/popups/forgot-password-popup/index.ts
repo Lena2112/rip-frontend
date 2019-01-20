@@ -1,0 +1,1 @@
+export { ForgotPasswordPopup } from "./ForgotPasswordPopup";

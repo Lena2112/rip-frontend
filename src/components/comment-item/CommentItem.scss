@@ -1,0 +1,79 @@
+.comment {
+    border-bottom: 2px solid #000;
+    &:last-child {
+        border-bottom: none;
+    }
+    &__header {
+        display: flex;
+        padding: 10px 0;
+        position: relative;
+        &_info {
+            margin-left: 15px;
+        }
+        &_image {
+            width: 60px;
+            height: 60px;
+            border-radius: 3px;
+        }
+        &_name {
+            color: #000;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        &_date {
+            font-size: 14px;
+            color: #b2b2b2;
+        }
+    }
+    &__content {
+        padding: 0 0 10px 0;
+        word-break: break-all;
+    }
+    .comment-controls {
+        position: absolute;
+        right: 0;
+    }
+    .control-icon {
+        width: 15px;
+        height: 15px;
+        background-size: contain;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .delete-comment {
+        background: url("./img/cancel.svg");
+    }
+    .edit-comment {
+        background: url("./img/edit.svg");
+    }
+    .edit-panel {
+        margin: 10px 0;
+        display: flex;
+        justify-content: flex-end;
+        &_button {
+            border: 1px solid #000;
+            padding: 5px 10px;
+            margin-left: 10px;
+            cursor: pointer;
+            color: #000;
+            background: #fff;
+            transition: background 0.5s ease;
+            &:hover {
+                transition: background 0.5s ease;
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+blockquote {
+    overflow: hidden;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    margin-left: 0;
+    font-style: italic;
+    border-left: 5px solid #ccc;
+}

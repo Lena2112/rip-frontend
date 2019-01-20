@@ -1,0 +1,18 @@
+.dropdown-item {
+    padding: 15px 30px;
+    background: #fff;
+    border-bottom: 1px solid #FF8426;
+
+    &:last-child {
+        border-bottom: none;
+    }
+    &:hover {
+        background: #FF8426;
+        color: #fff;
+    }
+    &--active {
+        background: #fff;
+        pointer-events: none;
+        cursor: default !important;
+    }
+}

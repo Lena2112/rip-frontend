@@ -1,0 +1,20 @@
+.header-link {
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    color: #ff4e00;
+    text-decoration: none;
+    margin-right: 40px;
+    display: block;
+    transition: all 0.3s ease;
+    &:last-child {
+        margin-right: 0;
+    }
+    &:hover {
+        text-decoration: underline;
+        transition: text-decoration 0.3s ease;
+    }
+
+    &--active {
+        text-decoration: underline;
+    }
+}

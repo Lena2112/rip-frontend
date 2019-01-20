@@ -1,0 +1,19 @@
+.change-container {
+    border: 2px solid #FF8426;
+    background: #fff;
+    margin-bottom: 30px;
+
+    &_header {
+        font-weight: 400;
+        font-size: 30px;
+        color: #000;
+        background: #fff;
+        border-bottom: 2px solid #FF8426;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    &_content {
+        padding: 20px 15px;
+    }
+}
